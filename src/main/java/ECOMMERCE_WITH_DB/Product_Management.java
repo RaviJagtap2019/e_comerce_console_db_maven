@@ -65,31 +65,7 @@ public class Product_Management {
 						}
 					}
 					  
-		   }   //else if(choice==3) {
-//			  		System.out.println("\t Let's Update Product\n");
-//			  		
-//			  		System.out.println("Enter Product Name To Update:");
-//			  		String update=scan.next();
-//			  		
-//			
-//					System.out.println("Enter New Product New Id :");
-//					String id=scan.next();
-//				
-//					System.out.println("Enter New  Product Name To Update :");
-//					String newname=scan.next();
-//		
-//					System.out.println("Enter New Product Price To Update :");
-//					String newprice=scan.next();
-//				
-//					System.out.println("Enter New Product Quantity to Update :");
-//					String newquantity=scan.next();
-//				
-//					String query="INSERT INTO `product_management`.`product`\n"
-//                                    +"(product_id,productname,productprice,productquantity)\n"
-//                                     +"VALUES('"+id+"','"+newname+"','"+newprice+"','"+newquantity+"')";
-//				statement.execute(query);
-//		}
-				else if(choice==4) {
+				 } else if(choice==4) {
 					System.out.println("\t Removing Product...!!");
 					System.out.println("Enter Product Name To Delete :");
 					String remove=scan.next();
