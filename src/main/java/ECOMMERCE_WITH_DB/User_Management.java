@@ -69,28 +69,7 @@ public class User_Management {
 						}
 					}
 					  
-			   }   //else if(choice==3) {
-//				  		System.out.println("\t Let's Update User\n");
-//				
-//						System.out.println("Enter User New Id :");
-//						String id=scan.next();
-//				
-//						System.out.println("Enter User Name To Update :");
-//						String newname=scan.next();
-//				
-//						System.out.println("Enter User Email To Update :");
-//						String newEmail=scan.next();
-//				
-//						System.out.println("Enter User Pass to Update :");
-//						String newpass=scan.next();
-				
-//						System.out.println("Enter User confirm Pass to Update :");
-//						String newConfirmpass=scan.next();
-				
-//					//String query="UPDATE FROM user user_id
-//					//statement.execute(query);
-//				}
-				else if(choice==4) {
+			       	}    else if(choice==4) {
 					System.out.println("\t Removing User...!!");
 					System.out.println("Enter User Name To Delete :");
 					String remove=scan.next();
